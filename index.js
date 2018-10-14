@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var read = require('node-readability');
 var sanitizer = require('sanitizer');
 var PDFDocument = require('pdfkit');
@@ -36,7 +37,7 @@ read(urlvalue, function(err, article, title, meta) {
     doc.text(title1, {
         paragraphGap: 12
     });
-    
+
     doc.font('Times-Roman', 13);
     doc.fillColor('#222222');
     doc.text(result, {
