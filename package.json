@@ -1,0 +1,26 @@
+{
+  "name": "pdfsave",
+  "version": "1.0.0",
+  "description": "Save text files from web to PDF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+		"pdfsave": "./index.js"
+	},
+  "dependencies": {
+    "node-readability": "^3.0.0",
+    "pdfkit": "^0.8.3",
+    "commander": "^2.19.0",
+    "sanitizer": "^0.1.3",
+    "sanitize-html": "^1.19.1"
+  },
+  "keywords": [
+    "pdf",
+    "save",
+    "node"
+  ],
+  "author": "Vladimir Carrer <vladocar@gmail.com> (http://www.vcarrer.com)",
+  "license": "MIT"
+}
