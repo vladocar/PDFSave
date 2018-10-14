@@ -6,7 +6,7 @@
 
 <p>PDFSave uses node-readability for clearing all non essential content. Later with pdfkit converts the HTML to lightweight PDF. PDFSave is text only, it doesn't save images or other multimedia content. </p>
 
-<h3>Installation and use. </h3>
+<h3>Installation</h3>
 
 ```shell
 $ npm i -g pdfsave
