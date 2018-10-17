@@ -15,7 +15,7 @@ $ npm i -g pdfsave
 <h3>Use</h3>
 
 ```shell
-$ pdfsave --url http:www.example.com
+$ pdfsave --url https://www.lipsum.com
 ```
 
 <h3>License</h3>
